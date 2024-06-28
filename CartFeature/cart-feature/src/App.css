@@ -1,0 +1,49 @@
+main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.app{
+    background-color: aqua;
+}
+
+.display{
+    background-color: purple;
+}
+
+.color-changeBtn{
+    width:20px;
+    height:20px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.buyBtn{
+    border-radius: 30px;
+    background-color: blue;
+    color: black;
+}
+
+.cart{
+    background-color: blueviolet;
+}
+
+.cart-icon {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  .cart-count {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  
